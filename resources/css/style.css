@@ -57,3 +57,27 @@ header img{
 	display: inline-block;
 	padding: 20px 30px;
 }
+/*PRODUCTS SECTION*/
+.products{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+.product{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 30%;
+	height: auto;
+}
+.product span{
+	background-color: black;
+	text-align: center;
+	padding: 15px 0;
+}
+.product img{
+	width: 100%;
+}
+
