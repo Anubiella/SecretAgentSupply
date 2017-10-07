@@ -70,7 +70,6 @@ header img{
 	flex-wrap: wrap;
 	flex-direction: column;
 	width: 30%;
-	height: auto;
 }
 .product span{
 	background-color: black;
@@ -81,3 +80,26 @@ header img{
 	width: 100%;
 }
 
+/*LOCATION HOURS SECTION*/
+.lochours{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	align-items: center;
+	justify-content: space-between;
+}
+.locho{
+	width: 35%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.locho span{
+	background-color: black;
+	text-align: left;
+	padding: 20px 20px;
+}
+.locho #lochospec{
+	background-color: white;
+	color: black;
+}
